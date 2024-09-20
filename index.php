@@ -12,6 +12,7 @@
     <link rel="short icon" href="<?= $BASE_URL ?>img/a.ico"/>
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.css" integrity="sha512-drnvWxqfgcU6sLzAJttJv7LKdjWn0nxWCSbEAtxJ/YYaZMyoNLovG7lPqZRdhgL1gAUfa+V7tbin8y+2llC1cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- CSS DO PROJETO -->
@@ -30,7 +31,9 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="<?= $BASE_URL ?>auth.php" class="nav-link">Entrar / Cadastrar</a>
+                        <a href="<?= $BASE_URL ?>auth.php" class="nav-link">
+                            <i class="bi bi-box-arrow-in-right"></i> Iniciar sessão
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -42,7 +45,7 @@
     </div>
 
     <footer id="footer">
-        <div class="social-container">
+        <div id="social-container">
             <ul>
                 <li>
                     <a href="#"><i class="fab fa-facebook-square"></i></a>
