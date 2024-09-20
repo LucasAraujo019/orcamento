@@ -1,3 +1,20 @@
-body {
+/* body {
     background-color: #ccc;
+} */
+
+.navbar-brand {
+    position: relative;
+}
+
+#logo {
+    width: 50px;
+}
+
+#orcamento-title {
+    color: white;
+    position: absolute;
+    bottom: -2px;
+    font-size: 30px;
+    left: 55px;
+    font-weight: bold;
 }
